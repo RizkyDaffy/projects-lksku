@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKSKu - Kunci Jawaban</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Navbar -->
+    <nav class="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold tracking-tight">Ruang Tugas</h1>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#" class="nav-link">Beranda</a>
+                <a href="#" class="nav-link">Cari Jawaban</a>
+                <a href="#" class="nav-link">Unggah Jawaban</a>
+                <a href="#" class="nav-link">Topik</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="hover:bg-gray-100 p-2 rounded-full">
+                    <i class="fas fa-bell"></i>
+                </button>
+                <div class="w-8 h-8 rounded-full bg-gray-300 flex items-center justify-center">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center py-16 px-6">
+        <h2 class="text-4xl font-bold mb-4">Temukan Kunci Jawaban LKS dengan Mudah</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto mb-8">Platform kolaboratif siswa untuk berbagi dan menemukan jawaban LKS yang terverifikasi</p>
+        
+        <!-- Search -->
+        <div class="bg-white rounded-full border border-gray-200 shadow-md flex items-center max-w-2xl mx-auto overflow-hidden">
+            <input type="text" placeholder="Cari berdasarkan judul buku, halaman, atau soal..." class="flex-grow px-5 py-3 focus:outline-none text-sm">
+            <button class="bg-black text-white px-5 py-3 flex items-center">
+                <i class="fas fa-search mr-2"></i> Cari
+            </button>
+        </div>
+
+        <!-- Actions -->
+        <div class="mt-6 flex justify-center space-x-4">
+            <button class="btn-outline"><i class="fas fa-camera mr-2"></i> Scan Soal</button>
+            <button class="btn-outline"><i class="fas fa-upload mr-2"></i> Unggah Jawaban</button>
+        </div>
+    </section>
+
+     <!-- How It Works -->
+    <section class="bg-gray-50 py-12 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-2xl font-bold mb-8 text-center">Bagaimana Cara Kerjanya?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-black text-white flex items-center justify-center">
+                        <i class="fas fa-search text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">1. Cari Jawaban</h3>
+                    <p class="text-gray-600">Temukan jawaban berdasarkan buku, halaman, atau dengan memindai soal langsung</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-black text-white flex items-center justify-center">
+                        <i class="fas fa-upload text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">2. Unggah Jawaban</h3>
+                    <p class="text-gray-600">Bagikan jawaban LKS Anda yang sudah diperiksa guru untuk membantu teman-teman</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-black text-white flex items-center justify-center">
+                        <i class="fas fa-check-circle text-2xl"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">3. Verifikasi Komunitas</h3>
+                    <p class="text-gray-600">Jawaban diverifikasi oleh komunitas untuk memastikan keakuratan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Answers -->
+    <section class="py-12 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex justify-between items-center mb-8">
+                <h2 class="text-2xl font-bold">Jawaban Terbaru</h2>
+                <a href="#" class="text-black font-medium">Lihat Semua <i class="fas fa-arrow-right ml-1"></i></a>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Answer Card 1 -->
+                <div class="answer-card bg-white rounded-lg overflow-hidden border border-gray-200">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="bg-gray-100 text-xs px-2 py-1 rounded">Matematika</span>
+                                <h3 class="font-bold mt-2">Kelas 10 - Halaman 120</h3>
+                                <p class="text-sm text-gray-500">Persamaan Kuadrat</p>
+                            </div>
+                            <span class="verified-badge bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full flex items-center">
+                                <i class="fas fa-check-circle mr-1"></i> Terverifikasi
+                            </span>
+                        </div>
+                        <p class="text-gray-700 mb-4 line-clamp-3">Jawaban untuk soal nomor 1-10 pada halaman 120 buku Matematika Kelas 10 Kurikulum Merdeka...</p>
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-gray-500">5 verifikasi</span>
+                            <button class="text-black font-medium">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Answer Card 2 -->
+                <div class="answer-card bg-white rounded-lg overflow-hidden border border-gray-200">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="bg-gray-100 text-xs px-2 py-1 rounded">IPA</span>
+                                <h3 class="font-bold mt-2">Kelas 8 - Halaman 75</h3>
+                                <p class="text-sm text-gray-500">Sistem Pencernaan</p>
+                            </div>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full flex items-center">
+                                <i class="fas fa-clock mr-1"></i> Menunggu Verifikasi
+                            </span>
+                        </div>
+                        <p class="text-gray-700 mb-4 line-clamp-3">Jawaban lengkap untuk LKS IPA bab sistem pencernaan yang sudah diperiksa oleh guru...</p>
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-gray-500">2 verifikasi</span>
+                            <button class="text-black font-medium">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Answer Card 3 -->
+                <div class="answer-card bg-white rounded-lg overflow-hidden border border-gray-200">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <span class="bg-gray-100 text-xs px-2 py-1 rounded">Bahasa Indonesia</span>
+                                <h3 class="font-bold mt-2">Kelas 9 - Halaman 42</h3>
+                                <p class="text-sm text-gray-500">Teks Persuasi</p>
+                            </div>
+                            <span class="verified-badge bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full flex items-center">
+                                <i class="fas fa-check-circle mr-1"></i> Terverifikasi
+                            </span>
+                        </div>
+                        <p class="text-gray-700 mb-4 line-clamp-3">Kunci jawaban untuk analisis teks persuasi pada halaman 42 beserta penjelasan...</p>
+                        <div class="flex justify-between items-center text-sm">
+                            <span class="text-gray-500">12 verifikasi</span>
+                            <button class="text-black font-medium">Lihat Detail</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CTA Section -->
+    <section class="py-16 px-6 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4">Bergabunglah dengan Komunitas LKS Solver</h2>
+            <p class="text-gray-600 mb-8">Mulai berbagi dan menemukan jawaban LKS bersama ribuan siswa lainnya</p>
+            <button class="bg-black text-white px-8 py-3 rounded-md font-medium">Daftar Sekarang - Gratis</button>
+        </div>
+    </section>
+
+
+    <footer class="bg-gray-100 py-8 px-6 border-t border-gray-200">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">Ruang Tugas</h3>
+                    <p class="text-gray-600 text-sm">Platform kolaboratif siswa untuk berbagi dan menemukan jawaban LKS yang terverifikasi.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Tautan Cepat</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-gray-600 hover:text-black">Beranda</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Cari Jawaban</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Unggah Jawaban</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Topik Populer</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Bantuan</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-gray-600 hover:text-black">Panduan Penggunaan</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">FAQ</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Kebijakan Privasi</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Hubungi Kami</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <p class="text-sm text-gray-600">hello@ruangtugas.my.id</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-200 mt-8 pt-8 text-sm text-gray-500 text-center">
+                <p>© 2023 Ruang Tugas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
